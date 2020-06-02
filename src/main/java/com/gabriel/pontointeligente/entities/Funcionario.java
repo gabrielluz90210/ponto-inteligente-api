@@ -15,7 +15,6 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
@@ -23,8 +22,8 @@ import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import com.gabriel.pontointeligente.*;
 import com.gabriel.pontointeligente.enums.PerfilEnum;
-import com.sun.org.apache.xml.internal.resolver.helpers.PublicId;
 
 @Entity
 @Table(name = "funcionario")
