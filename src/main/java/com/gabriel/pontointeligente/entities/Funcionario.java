@@ -22,7 +22,6 @@ import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-import com.gabriel.pontointeligente.*;
 import com.gabriel.pontointeligente.enums.PerfilEnum;
 
 @Entity
